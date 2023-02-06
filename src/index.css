@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500&display=swap');
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --Pure-White : #FFFFFF;
+  --Dark-Blue : #10141E;
+  --Greyish-Blue : #5A698F;
+  --Red : #FC4747;
+  --Semi-Dark-Blue : #161D2F;
+}
+
+::-moz-selection {
+  background-color: #FC4747;
+  color: #FFFFFF;
+}
+
+::selection {
+  background-color: #FC4747;
+  color: #FFFFFF;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  color: #FFF;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #161D2F;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FC4747;
+}
