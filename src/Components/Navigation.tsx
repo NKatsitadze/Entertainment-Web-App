@@ -121,8 +121,10 @@ const NavWrap = styled.div`
         }
 
             @media(max-width: 32.5em) {
-                width: 100%;
-                padding-left: 0rem;
+                border-radius: 0rem;
+                transform: translateX(-1rem);
+                width: calc(100% + 1rem);
+                padding-left: 1rem;
 
                 .nav-box {
                     padding: 1rem 0rem;
